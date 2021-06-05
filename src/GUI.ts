@@ -5,17 +5,10 @@ import { getUserData, UserData } from '@decentraland/Identity'
 //import { movePlayerTo } from '@decentraland/RestrictedActions'
 export class UGUI{
     private _name: string;
-    private _uName: string; private _u0x: string;
-    private _uMANA: string; private _uETH: string; 
     private _lastVisit: string;
-    private _guiTexture: Texture;
     constructor(name?: string){ this.setGUIBuilder(name); }
     setGUIBuilder = (name: string): void =>{
         if(name) this._name = name;
-        //this._uName = "aName.";
-        this._guiTexture = new Texture("image20.png");
-        // Get Blockchain Data On User
-        //this.blockChainData();
     }
 
     blockChainData(){
