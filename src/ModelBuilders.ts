@@ -494,8 +494,8 @@ export class ModelBuilders{
     // Build All 3D Models
     buildAllModels = (_scene: Entity) =>{
         this.buildGrass(_scene);
-        //this.buildExtraTickers(_scene);
-        //this.buildAllPriceTickers();
+        this.buildExtraTickers(_scene);
+        this.buildAllPriceTickers();
         this.buildDEXParkLights(_scene);
         this.buildPerimeterLights(_scene);
         this.buildDEXCyberBuilding(_scene);
