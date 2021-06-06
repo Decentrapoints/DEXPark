@@ -1,5 +1,5 @@
 // DCP DEX Park
-import { UGUI } from "./GUI";
+//import { UGUI } from "./GUI";
 import { ModelBuilders } from "./ModelBuilders";
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
@@ -105,5 +105,5 @@ dxpOG.addComponentOrReplace(gltfShape7);
 //mB.buildAllModels(_scene);
 
 // Build User GUI
-let ugui = new UGUI("UserGUI"); 
-ugui.DEXParkGUI();
+//let ugui = new UGUI("UserGUI"); 
+//ugui.DEXParkGUI();
