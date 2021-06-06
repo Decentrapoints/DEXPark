@@ -1,5 +1,5 @@
 // DCP DEX Park
-//import { UGUI } from "./GUI";
+import { UGUI } from "./GUI";
 import { ModelBuilders } from "./ModelBuilders";
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
