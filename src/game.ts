@@ -28,7 +28,7 @@ let nft = new NFTBuilders("NFTs");
 
 // Build User GUI
 let ugui = new UGUI("UserGUI"); 
-ugui.DEXParkGUI();
+//ugui.DEXParkGUI();
 
 // Market Data:
 //updateCoinData();
