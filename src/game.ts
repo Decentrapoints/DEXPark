@@ -44,9 +44,9 @@ const dxpBP = new Entity('dxpBP')
 engine.addEntity(dxpBP)
 dxpBP.setParent(_scene)
 const transform5 = new Transform({
-  position: new Vector3(13, 5, 15.5),
+  position: new Vector3(14.8, 5, 15.5),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(3, 3, 3)
+  scale: new Vector3(4, 4, 4)
 })
 dxpBP.addComponentOrReplace(transform5)
 const gltfShape4 = new GLTFShape("models/DXP_BP.glb")
@@ -59,9 +59,9 @@ const dxpGB = new Entity('dxpGB')
 engine.addEntity(dxpGB)
 dxpGB.setParent(_scene)
 const transform6 = new Transform({
-  position: new Vector3(1, 5, 13),
+  position: new Vector3(1, 5, 15.3),
   rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(3, 3, 3)
+  scale: new Vector3(4, 4, 4)
 })
 dxpGB.addComponentOrReplace(transform6)
 const gltfShape5 = new GLTFShape("models/DXP_GB.glb")
@@ -74,9 +74,9 @@ const dxpAM = new Entity('dxpAM')
 engine.addEntity(dxpAM)
 dxpAM.setParent(_scene)
 const transform7 = new Transform({
-  position: new Vector3(2.7, 5, 0.9999999403953552),
+  position: new Vector3(0.4, 5, 0.9999999403953552),
   rotation: new Quaternion(-5.7769201308201495e-15, -1, 1.1920928244535389e-7, 0),
-  scale: new Vector3(3, 3, 3)
+  scale: new Vector3(4, 4, 4)
 })
 dxpAM.addComponentOrReplace(transform7)
 const gltfShape6 = new GLTFShape("models/DXP_AM.glb")
@@ -89,9 +89,9 @@ const dxpOG = new Entity('dxpOG')
 engine.addEntity(dxpOG)
 dxpOG.setParent(_scene)
 const transform8 = new Transform({
-  position: new Vector3(15, 5, 3),
+  position: new Vector3(15, 5, 1.35),
   rotation: new Quaternion(1.539415254273621e-15, -0.7071067690849304, 8.429368847373553e-8, -0.7071068286895752),
-  scale: new Vector3(3, 3, 3)
+  scale: new Vector3(4, 4, 4)
 })
 dxpOG.addComponentOrReplace(transform8)
 const gltfShape7 = new GLTFShape("models/DXP_OG.glb")
