@@ -337,7 +337,7 @@ export class ModelBuilders{
     buildAllModels = (_scene: Entity) =>{
         this.buildGrass(_scene);
         //this.buildExtraTickers(_scene);
-        this.buildAllPriceTickers();
+        //this.buildAllPriceTickers();
         this.buildDEXParkLights(_scene);
         this.buildPerimeterLights(_scene);
         //this.buildDEXCyberBuilding(_scene);
