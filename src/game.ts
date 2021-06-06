@@ -105,5 +105,5 @@ dxpOG.addComponentOrReplace(gltfShape7);
 //mB.buildAllModels(_scene);
 
 // Build User GUI
-//let ugui = new UGUI("UserGUI"); 
-//ugui.DEXParkGUI();
+let ugui = new UGUI("UserGUI"); 
+ugui.DEXParkGUI();
