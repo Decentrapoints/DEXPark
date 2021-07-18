@@ -25,6 +25,7 @@ const transform2 = new Transform({
 });
 entity.addComponentOrReplace(transform2);
 
+// DXP LightBars
 const dexParkPerLbs = new Entity('dexParkPerLbs');
 engine.addEntity(dexParkPerLbs);
 dexParkPerLbs.setParent(_scene);
@@ -40,6 +41,7 @@ dPPLShape.isPointerBlocker = true;
 dPPLShape.visible = true;
 dexParkPerLbs.addComponentOrReplace(dPPLShape);
 
+// DXP Sign Blue/Purple
 const dxpBP = new Entity('dxpBP');
 engine.addEntity(dxpBP);
 dxpBP.setParent(_scene);
@@ -55,6 +57,7 @@ dxpBPShape.isPointerBlocker = true;
 dxpBPShape.visible = true;
 dxpBP.addComponentOrReplace(dxpBPShape);
 
+// DXP Sign Green/Blue
 const dxpGB = new Entity('dxpGB');
 engine.addEntity(dxpGB);
 dxpGB.setParent(_scene);
@@ -85,6 +88,7 @@ dxpAMShape.isPointerBlocker = true;
 dxpAMShape.visible = true;
 dxpAM.addComponentOrReplace(dxpAMShape);
 
+// DXP Sign Orange/Green
 const dxpOG = new Entity('dxpOG');
 engine.addEntity(dxpOG);
 dxpOG.setParent(_scene);
@@ -116,6 +120,21 @@ zeNFTShape.isPointerBlocker = true;
 zeNFTShape.visible = true;
 zeNFT.addComponentOrReplace(zeNFTShape);
 
+// Glass Corner Model
+const glassCorner = new Entity('glassCorner');
+engine.addEntity(glassCorner);
+glassCorner.setParent(_scene);
+const gC = new Transform({
+  position: new Vector3(15.9, -.1, 0.1),
+  rotation: new Quaternion(0, -1, 0),
+  scale: new Vector3(1, 3, 1)
+});
+glassCorner.addComponentOrReplace(gC);
+const glassShape = new GLTFShape("models/cornerGlass.glb");
+glassShape.withCollisions = true;
+glassShape.isPointerBlocker = true;
+glassShape.visible = true;
+glassCorner.addComponentOrReplace(glassShape);
 // Build 3D Models
 //let mB = new ModelBuilders("Models");
 //mB.buildAllModels(_scene);
